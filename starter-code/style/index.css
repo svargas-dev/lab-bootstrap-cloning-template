@@ -29,6 +29,26 @@ a.nav-link {
   justify-content: space-between;
 }
 
+h1 {
+  margin-left: 1.5rem;
+  font-size: 3.25em;
+  font-weight: 400;
+  max-width: 24rem;
+  line-height: 1.1666;
+  /* margin: auto 0; */
+  transform: translateY(75%);
+}
+
+h2 {
+  color: rgb(17, 19, 20);
+  font-weight: 300;
+  font-size: 2em;
+  line-height: 1.25;
+  letter-spacing: 0px;
+  max-width: 10em;
+  display: flex;
+}
+
 #home > p {
   color: rgb(17, 19, 20);
   font-weight: 400;
@@ -40,16 +60,16 @@ a.nav-link {
   margin-left: 1.5rem;
 }
 
-
-h1 {
-  margin-left: 1.5rem;
-  font-size: 3.25em;
-  font-weight: 400;
-  max-width: 24rem;
-  line-height: 1.1666;
-  /* margin: auto 0; */
-  transform: translateY(75%);
+#products {
+  height: 75vh;
+  padding-top: 5em;
+  padding-bottom: 5em;
 }
+
+.product-list {
+  padding-top: 5em;
+}
+
 
 .row {
   width: 100%;
