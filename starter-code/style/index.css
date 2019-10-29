@@ -1,7 +1,7 @@
 body {
   font-family: BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   height: 100%;
-  width: 90%;
+  width: 94%;
   margin: 0 auto;
 }
 
@@ -61,7 +61,7 @@ h2 {
 }
 
 #products {
-  height: 75vh;
+  height: 100em;
   padding-top: 5em;
   padding-bottom: 5em;
 }
@@ -70,12 +70,14 @@ h2 {
   padding-top: 5em;
 }
 
-
-.row {
+/* .row {
   width: 100%;
   margin: 0 auto;
-}
+} */
 
+#new {
+  background-color: black;
+}
 .card {
   border: none;
 }
